@@ -1,0 +1,5 @@
+server:
+  port: 8160
+  servlet:
+    context-path: /service-receiver-one
+
