@@ -19,9 +19,9 @@ public class EnviaParaMSCadastradoService implements Runnable {
     public void run() {
         CVurl cVurl = new CVurl();
         Response<String> msOne = cVurl.post("http://localhost:8160/service-receiver-one/")
-                .body(clienteResponse)
+                .body("")
                 .asString()
-                .orElseThrow();
+                .orElseThrow(RuntimeException::new);
         System.out.println(msOne.getBody());
 
     }
