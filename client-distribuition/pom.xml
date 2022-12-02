@@ -38,10 +38,11 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.github.corese4rch</groupId>
-            <artifactId>cvurl-io</artifactId>
-            <version>1.5.1</version>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.9.1</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
